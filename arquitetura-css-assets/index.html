@@ -15,10 +15,10 @@
     <link href="./assets/css/menu/menu-link.css" rel="stylesheet" />
     <link href="./assets/css/banner/banner.css" rel="stylesheet">
     <link href="./assets/css/banner/banner-img.css" rel="stylesheet">
-    <link href="./assets/css/banner/banner-titulo.css" rel="stylesheet"/>
-    <link href="./assets/css/sobre/sobre.css" rel="stylesheet"/>
-    <link href="./assets/css/sobre/sobre-descricao.css" rel="stylesheet"/>
-    <link href="./assets/css/sobre/sobre-titulo.css" rel="stylesheet"/>
+    <link href="./assets/css/banner/banner-titulo.css" rel="stylesheet" />
+    <link href="./assets/css/sobre/sobre.css" rel="stylesheet" />
+    <link href="./assets/css/sobre/sobre-descricao.css" rel="stylesheet" />
+    <link href="./assets/css/sobre/sobre-titulo.css" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/receita/receita.css">
     <link rel="stylesheet" href="./assets/css/receita/receita-botao.css">
     <link rel="stylesheet" href="./assets/css/receita/receita-conteudo.css">
@@ -36,6 +36,13 @@
     <link rel="stylesheet" href="./assets/css/pessoa/pessoa-imagem.css">
     <link rel="stylesheet" href="./assets/css/rodape.css">
     <link rel="stylesheet" href="./assets/css/logo.css">
+    <link rel="stylesheet" href="./assets/css/popup/popup-hr.css">
+    <link rel="stylesheet" href="./assets/css/popup/popup-icone-cruz.css">
+    <link rel="stylesheet" href="./assets/css/popup/popup-titulo-modal.css">
+    <link rel="stylesheet" href="./assets/css/popup/popup.css">
+    <link rel="stylesheet" href="./assets/css/popup/popup-descricao.css">
+
+
 </head>
 
 <body>
@@ -56,15 +63,19 @@
     </section>
     <section class="sobre">
         <h2 class="sobre__titulo">Receitas para economizar e ganhar saúde</h2>
-        <p class="sobre__descricao">Nossas receitas ajudam você a aproveitar melhor os alimentos, economizar, ganhar tempo e praticidade</p>
+        <p class="sobre__descricao">Nossas receitas ajudam você a aproveitar melhor os alimentos, economizar, ganhar
+            tempo e praticidade</p>
     </section>
     <section class="receitas">
         <div class="receita">
-            <img alt="Tigela de abacate" class="receita__imagem" src="./assets/img/imagens-receitas/tigela-de-abacate.jpg" />
+            <img alt="Tigela de abacate" class="receita__imagem"
+                src="./assets/img/imagens-receitas/tigela-de-abacate.jpg" />
             <div class="receita__conteudo">
                 <h4 class="receita__titulo">Tigela de abacate</h4>
                 <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
-                <button class="receita__botao">Ver receita</button>
+                <a href='javascript: abrir();'>
+                    <button class="receita__botao">Ver receita</button>
+                </a>
             </div>
         </div>
         <div class="receita">
@@ -72,23 +83,31 @@
             <div class="receita__conteudo">
                 <h4 class="receita__titulo">Salada de kiwi</h4>
                 <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
-                <button class="receita__botao">Ver receita</button>
+                <a href='javascript: abrir();'>
+                    <button class="receita__botao">Ver receita</button>
+                </a>
             </div>
         </div>
         <div class="receita">
-            <img alt="Mix de vegetais" class="receita__imagem" src="./assets/img/imagens-receitas/mix-de-vegetais.jpg" />
+            <img alt="Mix de vegetais" class="receita__imagem"
+                src="./assets/img/imagens-receitas/mix-de-vegetais.jpg" />
             <div class="receita__conteudo">
                 <h4 class="receita__titulo">Mix de vegetais</h4>
                 <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
-                <button class="receita__botao">Ver receita</button>
+                <a href='javascript: abrir();'>
+                    <button class="receita__botao">Ver receita</button>
+                </a>
             </div>
         </div>
         <div class="receita">
-            <img alt="Pimentões à Juliana" class="receita__imagem" src="./assets/img/imagens-receitas/pimentoes-a-juliana.jpg" />
+            <img alt="Pimentões à Juliana" class="receita__imagem"
+                src="./assets/img/imagens-receitas/pimentoes-a-juliana.jpg" />
             <div class="receita__conteudo">
                 <h4 class="receita__titulo">Pimentões a Julia</h4>
                 <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
-                <button class="receita__botao">Ver receita</button>
+                <a href='javascript: abrir();'>
+                    <button class="receita__botao">Ver receita</button>
+                </a>
             </div>
         </div>
         <div class="receita">
@@ -96,15 +115,20 @@
             <div class="receita__conteudo">
                 <h4 class="receita__titulo">Prato oriental</h4>
                 <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
-                <button class="receita__botao">Ver receita</button>
+                <a href='javascript: abrir();'>
+                    <button class="receita__botao">Ver receita</button>
+                </a>
             </div>
         </div>
         <div class="receita">
-            <img alt="Beterrabas assadas" class="receita__imagem" src="./assets/img/imagens-receitas/beterrabas-assadas.jpg" />
+            <img alt="Beterrabas assadas" class="receita__imagem"
+                src="./assets/img/imagens-receitas/beterrabas-assadas.jpg" />
             <div class="receita__conteudo">
                 <h4 class="receita__titulo">Beterrabas assadas</h4>
                 <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
-                <button class="receita__botao">Ver receita</button>
+                <a href='javascript: abrir();'>
+                    <button class="receita__botao">Ver receita</button>
+                </a>
             </div>
         </div>
         <div class="receita">
@@ -112,7 +136,9 @@
             <div class="receita__conteudo">
                 <h4 class="receita__titulo">Minipizza de batata</h4>
                 <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
-                <button class="receita__botao">Ver receita</button>
+                <a href='javascript: abrir();'>
+                    <button class="receita__botao">Ver receita</button>
+                </a>
             </div>
         </div>
         <div class="receita">
@@ -120,7 +146,9 @@
             <div class="receita__conteudo">
                 <h4 class="receita__titulo">Torta fácil de repolho</h4>
                 <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
-                <button class="receita__botao">Ver receita</button>
+                <a href='javascript: abrir();'>
+                    <button class="receita__botao">Ver receita</button>
+                </a>
             </div>
         </div>
     </section>
@@ -148,6 +176,24 @@
     <footer class="rodape">
         Contato: devleonardo27@gmail.com
     </footer>
+    <div id="popupbutao" class="popup">
+        <h3 class="popup__titulo__modal">Modal receita</h3>
+        <a href='javascript: fechar();'> <img class="popup__icone__cruz" src="./assets/img/icones/cruz-pequeno.svg" /></a>
+        </a>
+        <br><br><br>
+        <hr class="popup__hr">
+        <p class="popup__descricao">Texto receito</p>
+    </div>
+
+    <script type="text/javascript">
+        function abrir() {
+            document.getElementById('popupbutao').style.display = 'block';
+        }
+
+        function fechar() {
+            document.getElementById('popupbutao').style.display = 'none';
+        }
+    </script>
 </body>
 
 </html>

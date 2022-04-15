@@ -1,0 +1,12 @@
+.popup__icone__cruz{
+    position: absolute;
+    width: 86px;
+    height: 38px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #8C8888;
+    margin-left: 38rem;
+}

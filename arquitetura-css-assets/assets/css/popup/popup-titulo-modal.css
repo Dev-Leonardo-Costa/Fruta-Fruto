@@ -1,0 +1,12 @@
+.popup__titulo__modal{
+    position: absolute;
+    width: 309px;
+    height: 85px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    margin-left: 2.5rem;
+}
