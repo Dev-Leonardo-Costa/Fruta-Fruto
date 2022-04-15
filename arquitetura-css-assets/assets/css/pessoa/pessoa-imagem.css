@@ -1,0 +1,22 @@
+.pessoa__imagem{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    height:300px;
+    margin: 0 auto; 
+    width: 300px;
+    
+}
+   
+
+.pessoa__imagem--cyntia{
+    background-image: url(../../img/pessoas/cyntia.jpeg);
+}
+
+.pessoa__imagem--leonardo{
+    background-image: url(../../img/pessoas/leo.jpeg);
+}
+
+.pessoa__imagem--elisane{
+    background-image: url(../../img/pessoas/elisane.jpeg);
+}
